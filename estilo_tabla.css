@@ -1,0 +1,39 @@
+
+/* Estilos para la tabla */
+.table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Sin espacios entre bordes de las celdas */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para los encabezados */
+.table thead th {
+    background-color: #18177a; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Estilos para las celdas */
+.table tbody td {
+    border: 1px solid #ddd; /* Bordes de las celdas */
+    padding: 8px; /* Espaciado interno */
+}
+
+/* Estilo para filas alternas */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+/* Estilo para fila al pasar el mouse */
+.table tbody tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para filas seleccionadas */
+.table tbody tr.selected {
+    background-color: #08236e; /* Color de fondo para filas seleccionadas */
+    color: white; /* Color del texto para filas seleccionadas */
+}
+

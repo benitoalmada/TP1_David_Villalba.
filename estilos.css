@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+/* Estilo de un contenedor */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #081b8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de botones */
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #3498db;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #062886;
+}
+
+/* Estilos de una lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilos de una tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background: #0e1e77;
+    color: #fff;
+}
+
+/* Estilos de un pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f2d6d;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
